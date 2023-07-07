@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Cifrado</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-vector"><img class="image" src="Vector.png"></div>
+
+        <div class="area-encriptar">
+            <textarea class="ingreso" type="text" id="ingreso" placeholder="Ingrese el texto aqui" ></textarea>
+        </div>
+        <div class="botones">
+            <img class="simb" src="simbolo.png" alt="image" class=”full-width-img”>
+            <a class="texto">Solo letras minusculas y sin acento</a>
+            <br>
+            <button class="btnCifrado" id="Cifrado">Cifrar</button><br>
+            <button class="btnDescifrado" id="DesCifrado" onclick="DesEncriptar()">Descifrar</button>
+        </div>
+
+        <div class="area-resultado">
+
+            <textarea class="resultado" id="resultado"></textarea>
+            <img class="muneco" id="muneco" src="muneco.png" alt="image" class=”full-width-img”>
+            <p class="text1" id="text1">No se encontro ningun texto</p>
+            <p class="text2" id="text2">Ingrese el texto que desee Cifrar o Descifrar</p>
+            <button class="btnCopy" id="Copy" onclick="Copiar()">Copiar</button>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>

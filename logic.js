@@ -17,6 +17,7 @@ function verificar(e) {
             alert("Solo se pueden ingresar letras minusculas");
             //Si no se cumple la condicion que el campo de ingreso se vuelva vacio
             document.getElementById("ingreso").value = "";
+            document.getElementById("resultado").value = "";
             // Si la tecla pulsada no es la correcta, eliminado la pulsación
             e.preventDefault();
         }else{

@@ -201,6 +201,7 @@ image-vector {
     }
 
     .botones {
+        left: 80px;
         text-align: center;
         margin-top: 10px;
     }
@@ -252,6 +253,8 @@ image-vector {
         top: 580px;
         left: 20px;
         text-align: center;
+        max-width: 450px;
+        max-height: 150px;
     }
 
     .resultado {
@@ -273,12 +276,12 @@ image-vector {
     }
 
     .ingreso {
-        max-height: 400px;
-        max-width: 300px;
+        max-height: 250px;
+        max-width: 335px;
     }
 
     .area-encriptar {
-        max-width: 400px;
-        max-height: 530px;
+        max-width: 2500px;
+        max-height: 335px;
     }
 }
